@@ -98,12 +98,15 @@ Spring 框架无缝集成。
 的查找服务提供方，使地址透明，使服务提供方可以平滑增加或减少
 机器。
 
+
 ## Dubbo 的核心组件？
 
 
+![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1617948879(1).jpg)
 ##Dubbo 服务注册与发现的流程？
 流程说明：
 
+![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1617950349(1).jpg)
 1.Provider(提供者)绑定指定端口并启动服务
 
 2.指供者连接注册中心，并发本机 IP、端口、应用信息和提供服务信息
@@ -134,6 +137,8 @@ Consumer
 4.服务提供者无状态，任意一台宕掉后，不影响使用
 
 ##Dubbo 的架构设计？
+
+![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1617950408(1).jpg)
 Dubbo 框架设计一共划分了 10 个层：
 
 * 服务接口层（Service）：该层是与实际业务逻辑相关的，根据服务提
@@ -165,6 +170,7 @@ Message 为中心。
 ##Dubbo 的服务调用流程？
 
 
+![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1617950433(1).jpg)
 
 ##dubbo 推荐用什么协议？
 默认使用 dubbo 协议
@@ -187,6 +193,7 @@ Simple 注册中心
 采用 Zookeeper
 
 ##为什么需要服务治理？
+![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1617950457(1).jpg)
 
 * 过多的服务 URL 配置困难
 
@@ -286,7 +293,7 @@ TCP 协议传输的，配合以 Hession 序列化完成 RPC 通信。
 相对来说，Http 请求会有更大的报文，占的带宽也会更多。但是
 REST 相比 RPC 更为灵活，服务提供方和调用方的依赖只依靠一纸契
 约，不存在代码级别的强依赖。
-
+![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/16179512843453.jpg)
 
 ##Dubbo 中 zookeeper 做注册中心，如果注册中心集群都挂掉，发布者和订阅者之间还能通信么？
 可以通信的，启动 dubbo 时，消费者会从 zk 拉取注册的生产者的地址接口等数据，缓存在本地。每次调用时，按照本
