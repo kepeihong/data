@@ -1,5 +1,5 @@
 # Dubbo
-##Dubbo 支持哪些协议，每种协议的应用场景，优缺点？
+## Dubbo 支持哪些协议，每种协议的应用场景，优缺点？
 
 dubbo： 单一长连接和 NIO 异步通讯，适合大并发小数据量的服务调用，
 以及消费者远大于提供者。传输协议 TCP，异步，Hessian 序列化；
@@ -28,7 +28,7 @@ memcache： 基于 memcached 实现的 RPC 协议
 
 redis： 基于 redis 实现的 RPC 协议
 
-##Dubbo 超时时间怎样设置？
+## Dubbo 超时时间怎样设置？
 Dubbo 超时时间设置有两种方式：
 
 1.服务提供者端设置超时时间，在 Dubbo 的用户文档中，推荐如果能在服务
@@ -39,7 +39,7 @@ Dubbo 超时时间设置有两种方式：
 为主，即优先级更高。因为服务调用方设置超时时间控制性更灵活。如果消
 费方超时，服务端线程不会定制，会产生警告。
 
-##Dubbo 有些哪些注册中心？
+## Dubbo 有些哪些注册中心？
 *Multicast 注册中心*： Multicast 注册中心不需要任何中心节点，只要广播地
 址，就能进行服务注册和发现。基于网络中组播传输实现；
 
@@ -52,7 +52,7 @@ redis 注册中心： 基于 redis 实现，采用 key/Map 存储，住 key 存�
 
 Simple 注册中心
 
-##Dubbo 集群的负载均衡有哪些策略　　
+## Dubbo 集群的负载均衡有哪些策略　　
 Random LoadBalance: 随机选取提供者策略，有利于动态调整提供者权
 重。截面碰撞率高，调用次数越多，分布越均匀；
 
@@ -66,13 +66,13 @@ ConstantHash LoadBalance: 一致性 Hash 策略，使相同参数请求总是发
 到同一提供者，一台机器宕机，可以基于虚拟节点，分摊至其他提供者，避
 免引起提供者的剧烈变动；
 
-##Dubbo 是什么？
+## Dubbo 是什么？
 
 Dubbo 是一个分布式、高性能、透明化的 RPC 服务框架，提
 供服务自动注册、自动发现等高效服务治理方案， 可以和
 Spring 框架无缝集成。
 
-##Dubbo 的主要应用场景？
+##  Dubbo 的主要应用场景？
 
 1.透明化的远程方法调用，就像调用本地方法一样调用远程方法，
 只需简单配置，没有任何 API 侵入。
@@ -84,7 +84,7 @@ Spring 框架无缝集成。
 基于接口名查询服务提供者的 IP 地址，并且能够平滑添加或删
 除服务提供者。
 
-##Dubbo 的核心功能？
+##  Dubbo 的核心功能？
 主要就是如下 3 个核心功能：
 
 1. Remoting：网络通信框架，提供对多种 NIO 框架抽象封装，包括
@@ -99,11 +99,11 @@ Spring 框架无缝集成。
 机器。
 
 
-## Dubbo 的核心组件？
+##  Dubbo 的核心组件？
 
 
 ![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1617948879(1).jpg)
-##Dubbo 服务注册与发现的流程？
+##  Dubbo 服务注册与发现的流程？
 流程说明：
 
 ![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1617950349(1).jpg)
@@ -136,7 +136,7 @@ Consumer
 
 4.服务提供者无状态，任意一台宕掉后，不影响使用
 
-##Dubbo 的架构设计？
+## Dubbo 的架构设计？
 
 ![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1617950408(1).jpg)
 Dubbo 框架设计一共划分了 10 个层：
@@ -167,15 +167,15 @@ Request 和 Response 为中心。
 * 网络传输层（Transport）：抽象 mina 和 netty 为统一接口，以
 Message 为中心。
 
-##Dubbo 的服务调用流程？
+## Dubbo 的服务调用流程？
 
 
 ![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1617950433(1).jpg)
 
-##dubbo 推荐用什么协议？
+## dubbo 推荐用什么协议？
 默认使用 dubbo 协议
 
-##Dubbo 有些哪些注册中心？
+## Dubbo 有些哪些注册中心？
 
 Multicast 注册中心： Multicast 注册中心不需要任何中心节点，只
 要广播地址，就能进行服务注册和发现。基于网络中组播传输实现；
@@ -189,10 +189,10 @@ redis 注册中心： 基于 redis 实现，采用 key/Map 存储，住 key 存�
 
 Simple 注册中心
 
-##Dubbo 默认采用注册中心？
+## Dubbo 默认采用注册中心？
 采用 Zookeeper
 
-##为什么需要服务治理？
+## 为什么需要服务治理？
 ![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1617950457(1).jpg)
 
 * 过多的服务 URL 配置困难
@@ -203,19 +203,19 @@ Simple 注册中心
 
 * 过多服务导致性能指标分析难度较大，需要监控
 
-##Dubbo 的注册中心集群挂掉，发布者和订阅者之间还能通信么？
+## Dubbo 的注册中心集群挂掉，发布者和订阅者之间还能通信么？
 可以的，启动 dubbo 时，消费者会从 zookeeper 拉取注册的生产者
 的地址接口等数据，缓存在本地。每次调用时，按照本地存储的地址进行调用。
 
-##Dubbo 与 Spring 的关系？
+## Dubbo 与 Spring 的关系？
 Dubbo 采用全 Spring 配置方式，透明化接入应用，对应用没有任何
 API 侵入，只需用 Spring 加载 Dubbo 的配置即可，Dubbo 基于
 Spring 的 Schema 扩展进行加载。
 
-##Dubbo 使用的是什么通信框架?
+## Dubbo 使用的是什么通信框架?
 默认使用 NIO Netty 框架
 
-##Dubbo 集群提供了哪些负载均衡策略？
+## Dubbo 集群提供了哪些负载均衡策略？
 
 * Random LoadBalance: 随机选取提供者策略，有利于动态调整提供
 者权重。截面碰撞率高，调用次数越多，分布越均匀；
@@ -231,7 +231,7 @@ Spring 的 Schema 扩展进行加载。
 他提供者，避免引起提供者的剧烈变动；
 缺省时为 Random 随机调用
 
-##Dubbo 的集群容错方案有哪些？
+## Dubbo 的集群容错方案有哪些？
 
 * Failover Cluster
 
@@ -263,30 +263,30 @@ Spring 的 Schema 扩展进行加载。
 广播调用所有提供者，逐个调用，任意一台报错则报错 。通常用于通
 知所有提供者更新缓存或日志等本地资源信息。
 
-##Dubbo 的默认集群容错方案？
+## Dubbo 的默认集群容错方案？
 Failover Cluster
 
-##Dubbo 支持哪些序列化方式？
+## Dubbo 支持哪些序列化方式？
 默认使用 Hessian 序列化，还有 Duddo、FastJson、Java 自带序列
 化。
 
-##Dubbo 在安全机制方面是如何解决？
+## Dubbo 在安全机制方面是如何解决？
 Dubbo 通过 Token 令牌防止用户绕过注册中心直连，然后在注册中
 心上管理授权。Dubbo 还提供服务黑白名单，来控制服务所允许的调
 用方。
 
-##Dubbo 和 Dubbox 之间的区别？
+## Dubbo 和 Dubbox 之间的区别？
 dubbox 基于 dubbo 上做了一些扩展，如加了服务可 restful 调
 用，更新了开源组件等。
 
-##Dubbo 和 Spring Cloud 的关系？
+## Dubbo 和 Spring Cloud 的关系？
 Dubbo 是 SOA 时代的产物，它的关注点主要在于服务的调用，流
 量分发、流量监控和熔断。而 Spring Cloud 诞生于微服务架构时
 代，考虑的是微服务治理的方方面面，另外由于依托了 Spirng、
 Spirng Boot 的优势之上，两个框架在开始目标就不一致，Dubbo
 定位服务治理、Spirng Cloud 是一个生态。
 
-##Dubbo 和 Spring Cloud 的区别？
+## Dubbo 和 Spring Cloud 的区别？
 最大的区别：Dubbo 底层是使用 Netty 这样的 NIO 框架，是基于
 TCP 协议传输的，配合以 Hession 序列化完成 RPC 通信。
 而 SpringCloud 是基于 Http 协议+Rest 接口调用远程过程的通信，
@@ -295,7 +295,7 @@ REST 相比 RPC 更为灵活，服务提供方和调用方的依赖只依靠一�
 约，不存在代码级别的强依赖。
 ![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/16179512843453.jpg)
 
-##Dubbo 中 zookeeper 做注册中心，如果注册中心集群都挂掉，发布者和订阅者之间还能通信么？
+## Dubbo 中 zookeeper 做注册中心，如果注册中心集群都挂掉，发布者和订阅者之间还能通信么？
 可以通信的，启动 dubbo 时，消费者会从 zk 拉取注册的生产者的地址接口等数据，缓存在本地。每次调用时，按照本
 地存储的地址进行调用；
 
@@ -309,7 +309,7 @@ REST 相比 RPC 更为灵活，服务提供方和调用方的依赖只依靠一�
 
 
 
-## dubbo 连接注册中心和直连的区别
+##  dubbo 连接注册中心和直连的区别
 在开发及测试环境下，经常需要绕过注册中心，只测试指定服务提供者，这时候可能需要点对点直连，
 点对点直联方式，将以服务接口为单位，忽略注册中心的提供者列表，
 
@@ -327,12 +327,12 @@ REST 相比 RPC 更为灵活，服务提供方和调用方的依赖只依靠一�
 注册中心和监控中心都是可选的，服务消费者可以直连服务提供者。
 
 
-##dubbo 通信协议 dubbo 协议为什么要消费者比提供者个数多：
+## dubbo 通信协议 dubbo 协议为什么要消费者比提供者个数多：
 因 dubbo 协议采用单一长连接，假设网络为千兆网卡(1024Mbit=128MByte)，
 根据测试经验数据每条连接最多只能压满 7MByte(不同的环境可能不一样，供参考)，理论上 1 个服务提供者需要 20
 个服务消费者才能压满网卡。
 
-## dubbo 通信协议 dubbo 协议为什么不能传大包：
+##  dubbo 通信协议 dubbo 协议为什么不能传大包：
 因 dubbo 协议采用单一长连接，
 如果每次请求的数据包大小为 500KByte，假设网络为千兆网卡(1024Mbit=128MByte)，每条连接最大 7MByte(不同的
 环境可能不一样，供参考)，
@@ -340,7 +340,7 @@ REST 相比 RPC 更为灵活，服务提供方和调用方的依赖只依靠一�
 单个消费者调用单个服务提供者的 TPS(每秒处理事务数)最大为：7MByte / 500KByte = 14。
 如果能接受，可以考虑使用，否则网络将成为瓶颈。
 
-##dubbo 通信协议 dubbo 协议为什么采用异步单一长连接：
+## dubbo 通信协议 dubbo 协议为什么采用异步单一长连接：
 因为服务的现状大都是服务提供者少，通常只有几台机器，
 而服务的消费者多，可能整个网站都在访问该服务，
 比如 Morgan 的提供者只有 6 台提供者，却有上百台消费者，每天有 1.5 亿次调用，
@@ -349,7 +349,7 @@ REST 相比 RPC 更为灵活，服务提供方和调用方的依赖只依靠一�
 长连接，减少连接握手验证等，
 并使用异步 IO，复用线程池，防止 C10K 问题。
 
-##dubbo 通信协议
+## dubbo 通信协议
  * dubbo 协议适用范围和适用场景
  
 适用范围：传入传出参数数据包较小（建议小于 100K），消费者比提供者个数
@@ -445,7 +445,7 @@ Servlet 暴露服务，Dubbo 缺省内嵌 Jetty 作为服务器实现
 
 适用场景：系统集成，跨语言调用。
 
-##Thrif
+## Thrif
 Thrift 是 Facebook 捐给 Apache 的一个 RPC 框架，当前 dubbo 支持的 thrift
 协议是对 thrift 原生协议的扩展，在原生协议的基础上添加了一些额外的头信
 息，比如 service name，magic number 等
