@@ -93,7 +93,7 @@ createNode 方法在 locker 下创建临时顺序节点，
 
 代码的实现主要是基于互斥锁，获取分布式锁的重点逻辑在于 BaseDistributedLock，实现了基于
 Zookeeper 实现分布式锁的细节。
-![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/zk/1617954077(1).jpg)
+![avatar](https://github.com/kepeihong/data/blob/master/image/RPC/zk/1617954077(1).jpg)
 ## Zookeeper 队列管理（文件系统、通知机制）
 两种类型的队列：
 
@@ -172,8 +172,8 @@ Server；
 Server 的支持，则 Server 总数必须是奇数 2n+1，且存活的 Server 的数目不得少于 n+1. 每个 Server 启动后
 都会重复以上流程。在恢复模式下，如果是刚从崩溃状态恢复的或者刚启动的 server 还会从磁盘快照中恢复数
 据和会话信息，zk 会记录事务日志并定期进行快照，方便在恢复时进行状态恢复。
-![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/zk/1617954034(1).jpg)
-![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/zk/1617954051(1).jpg)
+![avatar](https://github.com/kepeihong/data/blob/master/image/RPC/zk/1617954034(1).jpg)
+![avatar](https://github.com/kepeihong/data/blob/master/image/RPC/zk/1617954051(1).jpg)
 
 
 2、Zookeeper 选主流程(basic paxos)
@@ -181,7 +181,7 @@ Server 的支持，则 Server 总数必须是奇数 2n+1，且存活的 Server �
 fast paxos 流程是在选举过程中，某 Server 首先向所有 Server 提议自己要成为 leader，当其它 Server 收到提
 议以后，解决 epoch 和 zxid 的冲突，并接受对方的提议，然后向对方发送接受提议完成的消息，重复这个流
 程，最后一定能选举出 Leader。
-![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/zk/1617954004(1).jpg)
+![avatar](https://github.com/kepeihong/data/blob/master/image/RPC/zk/1617954004(1).jpg)
 ## Zookeeper 同步流程
 选完 Leader 以后，zk 就进入状态同步过程。
 
@@ -194,7 +194,7 @@ fast paxos 流程是在选举过程中，某 Server 首先向所有 Server 提�
 4、完成同步后通知 follower 已经成为 uptodate 状态；
 
 5、Follower 收到 uptodate 消息后，又可以重新接受 client 的请求进行服务了。
-![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/zk/1617953970(1).jpg)
+![avatar](https://github.com/kepeihong/data/blob/master/image/RPC/zk/1617953970(1).jpg)
 ## 分布式通知和协调
 对于系统调度来说：操作人员发送通知实际是通过控制台改变某个节点的状态，然后 zk 将这些变化发送给注册
 了这个节点的 watcher 的所有客户端。

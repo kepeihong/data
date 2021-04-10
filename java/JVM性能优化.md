@@ -7,7 +7,7 @@
 ## 常用的性能评价/测试指标
 
 * 响应时间
-![avatar](https://github.com/kepeihong/data/blob/master/%E6%8A%80%E6%9C%AF%E6%A0%88/img/image/RPC/dubbo/1618053405(1).jpg)
+![avatar](https://github.com/kepeihong/data/blob/master/image/RPC/dubbo/1618053405(1).jpg)
 
 * 并发数
 
