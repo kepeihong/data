@@ -1,19 +1,54 @@
-# Getting Started
+# 架构师面试资料持续更新中
 
-### Reference Documentation
-For further reference, please consider the following sections:
+## [分布式](https://github.com/kepeihong/data/tree/master/%E5%88%86%E5%B8%83%E5%BC%8F%0A)
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.4/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.4/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.4.4/reference/htmlsingle/#boot-features-developing-web-applications)
+## [消息中间件](https://github.com/kepeihong/data/tree/master/%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6%0A)
 
-### Guides
-The following guides illustrate how to use some features concretely:
+## [方案设计](https://github.com/kepeihong/data/tree/master/%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1)
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-![avatar](https://github.com/kepeihong/data/blob/master/docs/img/%E8%AF%BE%E7%A8%8B%E5%A4%A7%E7%BA%B2.png)
+## [简历设计](https://github.com/kepeihong/data/tree/master/%E7%AE%80%E5%8E%86%E8%AE%BE%E8%AE%A1)
 
+## [计算机基础](https://github.com/kepeihong/data/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80)
+
+## [设计模式](https://github.com/kepeihong/data/tree/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
+
+## [docker](https://github.com/kepeihong/data/tree/master/docker)
+
+## [dubbo](https://github.com/kepeihong/data/tree/master/dubbo)
+
+## [ElasticSearch](https://github.com/kepeihong/data/tree/master/elasticsearch)
+
+## [Flink](https://github.com/kepeihong/data/tree/master/Flink)
+
+## [Hbase](https://github.com/kepeihong/data/tree/master/Hbase)
+
+## [JVM](https://github.com/kepeihong/data/tree/master/JVM)
+
+## [Java基础](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80)
+
+## [k8s](https://github.com/kepeihong/data/tree/master/k8s)
+
+## [mongoDB](https://github.com/kepeihong/data/tree/master/mongoDB)
+
+## [mybatis](https://github.com/kepeihong/data/tree/master/mybatis)
+
+## [mysql](https://github.com/kepeihong/data/tree/master/mysql)
+
+## [Netty](https://github.com/kepeihong/data/tree/master/Netty)
+
+## [ngnix](https://github.com/kepeihong/data/tree/master/ngnix)
+
+## [redis](https://github.com/kepeihong/data/tree/master/redis)
+
+## [spring](https://github.com/kepeihong/data/tree/master/spring)
+
+## [springBoot](https://github.com/kepeihong/data/tree/master/springBoot)
+
+## [springMVC](https://github.com/kepeihong/data/tree/master/springMVC)
+
+## [springCould](https://github.com/kepeihong/data/tree/master/springCould)
+
+## [zk](https://github.com/kepeihong/data/tree/master/zk)
+
+## [并发](https://github.com/kepeihong/data/tree/master/并发)
 
