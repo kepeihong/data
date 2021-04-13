@@ -139,6 +139,7 @@ Consumer
 ## Dubbo 的架构设计？
 
 ![avatar](https://github.com/kepeihong/data/blob/master/image/RPC/dubbo/1617950408(1).jpg)
+
 Dubbo 框架设计一共划分了 10 个层：
 
 * 服务接口层（Service）：该层是与实际业务逻辑相关的，根据服务提
