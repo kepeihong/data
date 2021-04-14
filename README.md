@@ -207,8 +207,10 @@
 
 ## 其他
 喜欢的同学点个星星，打赏奖励一下博主！！！
-![avatar](https://github.com/kepeihong/data/tree/master/image/pics/1618389462.jpg)
-![avatar](https://github.com/kepeihong/data/tree/master/image/pics/1618389579.jpg)
+
+![avatar](https://img-blog.csdnimg.cn/20210414173956371.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70)
+
+![avatar](https://img-blog.csdnimg.cn/20210414174007800.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70)
 
 
 
