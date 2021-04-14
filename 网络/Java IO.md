@@ -50,7 +50,7 @@ File 类可以用于表示文件和目录的信息，但是它不表示文件的
 
 递归地列出一个目录下所有文件：
 
-```java
+```
 public static void listAllFiles(File dir) {
     if (dir == null || !dir.exists()) {
         return;
@@ -71,7 +71,7 @@ public static void listAllFiles(File dir) {
 
 ### 实现文件复制
 
-```java
+```
 public static void copyFile(String src, String dist) throws IOException {
     FileInputStream in = new FileInputStream(src);
     FileOutputStream out = new FileOutputStream(dist);
@@ -103,7 +103,7 @@ Java I/O 使用了装饰者模式来实现。以 InputStream 为例，
 
 实例化一个具有缓存功能的字节流对象时，只需要在 FileInputStream 对象上再套一层 BufferedInputStream 对象即可。
 
-```java
+```
 FileInputStream fileInputStream = new FileInputStream(filePath);
 BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
 ```
@@ -130,7 +130,7 @@ Java 的内存编码使用双字节编码 UTF-16be，这不是指 Java 只支持
 
 String 可以看成一个字符序列，可以指定一个编码方式将它编码为字节序列，也可以指定一个编码方式将一个字节序列解码为 String。
 
-```java
+```
 String str1 = "中文";
 byte[] bytes = str1.getBytes("UTF-8");
 String str2 = new String(bytes, "UTF-8");
@@ -139,7 +139,7 @@ System.out.println(str2);
 
 在调用无参数 getBytes() 方法时，默认的编码方式不是 UTF-16be。双字节编码的好处是可以使用一个 char 存储中文和英文，而将 String 转为 bytes[] 字节数组就不再需要这个好处，因此也就不再需要双字节编码。getBytes() 的默认编码方式与平台有关，一般为 UTF-8。
 
-```java
+```
 byte[] bytes = str1.getBytes();
 ```
 
@@ -152,7 +152,7 @@ byte[] bytes = str1.getBytes();
 
 ### 实现逐行输出文本文件的内容
 
-```java
+```
 public static void readFileContent(String filePath) throws IOException {
 
     FileReader fileReader = new FileReader(filePath);
@@ -185,7 +185,7 @@ public static void readFileContent(String filePath) throws IOException {
 
 序列化的类需要实现 Serializable 接口，它只是一个标准，没有任何方法需要实现，但是如果不去实现它的话而进行序列化，会抛出异常。
 
-```java
+```
 public static void main(String[] args) throws IOException, ClassNotFoundException {
 
     A a1 = new A(123, "abc");
@@ -224,7 +224,7 @@ transient 关键字可以使一些属性不会被序列化。
 
 ArrayList 中存储数据的数组 elementData 是用 transient 修饰的，因为这个数组是动态扩展的，并不是所有的空间都被使用，因此就不需要所有的内容都被序列化。通过重写序列化和反序列化方法，使得可以只序列化数组中有内容的那部分数据。
 
-```java
+```
 private transient Object[] elementData;
 ```
 
@@ -241,7 +241,7 @@ Java 中的网络支持：
 
 没有公有的构造函数，只能通过静态方法来创建实例。
 
-```java
+```
 InetAddress.getByName(String host);
 InetAddress.getByAddress(byte[] address);
 ```
@@ -250,7 +250,7 @@ InetAddress.getByAddress(byte[] address);
 
 可以直接从 URL 中读取字节流数据。
 
-```java
+```
 public static void main(String[] args) throws IOException {
 
     URL url = new URL("http://www.baidu.com");
@@ -363,7 +363,7 @@ I/O 包和 NIO 已经很好地集成了，java.io.\* 已经以 NIO 为基础重�
 
 以下展示了使用 NIO 快速复制文件的实例：
 
-```java
+```
 public static void fastCopy(String src, String dist) throws IOException {
 
     /* 获得源文件的输入字节流 */
@@ -419,13 +419,13 @@ NIO 实现了 IO 多路复用中的 Reactor 模型，一个线程 Thread 使用�
 
 #### 1. 创建选择器
 
-```java
+```
 Selector selector = Selector.open();
 ```
 
 #### 2. 将通道注册到选择器上
 
-```java
+```
 ServerSocketChannel ssChannel = ServerSocketChannel.open();
 ssChannel.configureBlocking(false);
 ssChannel.register(selector, SelectionKey.OP_ACCEPT);
@@ -442,7 +442,7 @@ ssChannel.register(selector, SelectionKey.OP_ACCEPT);
 
 它们在 SelectionKey 的定义如下：
 
-```java
+```
 public static final int OP_READ = 1 << 0;
 public static final int OP_WRITE = 1 << 2;
 public static final int OP_CONNECT = 1 << 3;
@@ -451,13 +451,13 @@ public static final int OP_ACCEPT = 1 << 4;
 
 可以看出每个事件可以被当成一个位域，从而组成事件集整数。例如：
 
-```java
+```
 int interestSet = SelectionKey.OP_READ | SelectionKey.OP_WRITE;
 ```
 
 #### 3. 监听事件
 
-```java
+```
 int num = selector.select();
 ```
 
@@ -465,7 +465,7 @@ int num = selector.select();
 
 #### 4. 获取到达的事件
 
-```java
+```
 Set<SelectionKey> keys = selector.selectedKeys();
 Iterator<SelectionKey> keyIterator = keys.iterator();
 while (keyIterator.hasNext()) {
@@ -483,7 +483,7 @@ while (keyIterator.hasNext()) {
 
 因为一次 select() 调用不能处理完所有的事件，并且服务器端有可能需要一直监听事件，因此服务器端处理事件的代码一般会放在一个死循环内。
 
-```java
+```
 while (true) {
     int num = selector.select();
     Set<SelectionKey> keys = selector.selectedKeys();
@@ -502,7 +502,7 @@ while (true) {
 
 ### 套接字 NIO 实例
 
-```java
+```
 public class NIOServer {
 
     public static void main(String[] args) throws IOException {
@@ -576,7 +576,7 @@ public class NIOServer {
 }
 ```
 
-```java
+```
 public class NIOClient {
 
     public static void main(String[] args) throws IOException {
@@ -597,7 +597,7 @@ public class NIOClient {
 
 下面代码行将文件的前 1024 个字节映射到内存中，map() 方法返回一个 MappedByteBuffer，它是 ByteBuffer 的子类。因此，可以像使用其他任何 ByteBuffer 一样使用新映射的缓冲区，操作系统会在需要时负责执行映射。
 
-```java
+```
 MappedByteBuffer mbb = fc.map(FileChannel.MapMode.READ_WRITE, 0, 1024);
 ```
 
