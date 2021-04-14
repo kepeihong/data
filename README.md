@@ -64,11 +64,12 @@
 
 
 ## [架构设计](https://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1)
-- [秒杀系统设计](ttps://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.md)
-- [系统设计依据](ttps://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%BE%9D%E6%8D%AE.md)
-- [缓存实现原理及问题](ttps://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E7%BC%93%E5%AD%98%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8A%E9%97%AE%E9%A2%98.md)
-- [百万级消息推送系统设计](ttps://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E7%99%BE%E4%B8%87%E7%BA%A7%E7%9A%84%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%B3%BB%E7%BB%9F.md)
-- [分库分表方案设计](ttps://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1.md)
+
+- [秒杀系统设计](https://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.md)
+- [系统设计依据](https://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%BE%9D%E6%8D%AE.md)
+- [缓存实现原理及问题](https://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E7%BC%93%E5%AD%98%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8A%E9%97%AE%E9%A2%98.md)
+- [百万级消息推送系统设计](https://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E7%99%BE%E4%B8%87%E7%BA%A7%E7%9A%84%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%B3%BB%E7%BB%9F.md)
+- [分库分表方案设计](https://github.com/kepeihong/data/tree/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1.md)
 
 
 ## [数据存储](#https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8)
