@@ -190,7 +190,7 @@
 - [Thread停止运行](https://github.com/kepeihong/data/tree/master/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/thread%E5%81%9C%E6%AD%A2%E8%BF%90%E8%A1%8C.md)
 
 ## [数据结构与算法](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
-- [100道大厂常见算法题及答案](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
+- [100道大厂常见算法题及答案](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E5%89%91%E6%8C%87%20Offer%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95)
 - [Leetcode常见算法题及答案](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 - [算法分析](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%20-%20%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.md)
 - [排序](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%2520-%2520%E6%8E%92%E5%BA%8F.md)
