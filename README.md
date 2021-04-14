@@ -26,15 +26,16 @@
 
 
 ## [JVM](https://github.com/kepeihong/data/tree/master/JVM)
-- [Java 运行时内存划分](https://github.com/crossoverJie/JCSprout/blob/master/MD/MemoryAllocation.md)
--  [类加载机制](https://github.com/crossoverJie/JCSprout/blob/master/MD/ClassLoad.md)
--  [OOM 分析](https://github.com/crossoverJie/JCSprout/blob/master/MD/OOM-analysis.md)
-- [垃圾回收](https://github.com/crossoverJie/JCSprout/blob/master/MD/GarbageCollection.md)
-- [对象的创建与内存分配](https://github.com/crossoverJie/JCSprout/blob/master/MD/newObject.md)
-- [你应该知道的 volatile 关键字](https://github.com/crossoverJie/JCSprout/blob/master/MD/concurrent/volatile.md)
-- [一次内存溢出排查优化实战](https://crossoverjie.top/2018/08/29/java-senior/OOM-Disruptor/)
-- [一次 HashSet 所引起的并发问题](docs/jvm/JVM-concurrent-HashSet-problem.md)
-- [一次生产 CPU 100% 排查优化实践](docs/jvm/cpu-percent-100.md)
+- [JVM执行子系统](https://github.com/kepeihong/data/tree/master/JVM/JVM%E6%89%A7%E8%A1%8C%E5%AD%90%E7%B3%BB%E7%BB%9F%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+- [JVM面试题](https://github.com/kepeihong/data/tree/master/JVM/JVM%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+- [JVM性能优化面试题](https://github.com/kepeihong/data/tree/master/JVM/JVM%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+- [虚拟机类加载机制](https://github.com/kepeihong/data/tree/master/JVM/ClassLoad.md)
+- [Java 虚拟机](https://github.com/kepeihong/data/tree/master/JVM/Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA.md)
+- [JVM内存整理及GC回收面试题](https://github.com/kepeihong/data/tree/master/JVM/JVM%E5%86%85%E5%AD%98%E6%95%B4%E7%90%86%E5%8F%8AGC%E5%9B%9E%E6%94%B6%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+- [JVM内存模型](https://github.com/kepeihong/data/tree/master/JVM/jvm%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.md)
+- [垃圾回收](https://github.com/kepeihong/data/tree/master/JVM/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6.md)
+- [对象的创建与内存分配](https://github.com/kepeihong/data/tree/master/JVM/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D.md)
+- [volatile实现原理](https://github.com/kepeihong/data/tree/master/JVM/volatile.md)
 
 
 
@@ -45,11 +46,17 @@
 
 
 ## [Java基础](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80)
-- [ArrayList/Vector](https://github.com/crossoverJie/JCSprout/blob/master/MD/ArrayList.md)
-- [LinkedList](https://github.com/crossoverJie/JCSprout/blob/master/MD/LinkedList.md)
-- [HashMap](https://github.com/crossoverJie/JCSprout/blob/master/MD/HashMap.md)
-- [HashSet](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/HashSet.md)
-- [LinkedHashMap](https://github.com/crossoverJie/JCSprout/blob/master/MD/collection/LinkedHashMap.md)
+- [深入理解Java](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/Java%20%E5%9F%BA%E7%A1%80.md)
+- [Java容器](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/Java%20%E5%AE%B9%E5%99%A8.md)
+- [Java基础面试题](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+- [正则表达式](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
+- [集合面试题](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/%E9%9B%86%E5%90%88%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+- [面向对象思想](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%80%9D%E6%83%B3.md)
+- [ArrayList/Vector](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/ArrayList.md)
+- [LinkedList](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/LinkedList.md)
+- [HashMap](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/HashMap.md)
+- [HashSet](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/HashSet.md)
+- [LinkedHashMap](https://github.com/kepeihong/data/tree/master/java%E5%9F%BA%E7%A1%80/LinkedHashMap.md)
 
 
 ## [架构设计](#架构设计)
