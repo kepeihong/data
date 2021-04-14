@@ -425,3 +425,10 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
 - [How Sharding Works](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6)
 - [大众点评订单系统分库分表实践](https://tech.meituan.com/dianping_order_db_sharding.html)
 - [B + 树](https://zh.wikipedia.org/wiki/B%2B%E6%A0%91)
+
+# 其他
+喜欢的同学点个星星，打赏奖励一下博主！！！
+
+ <img src="https://img-blog.csdnimg.cn/20210414173956371.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ <img src="https://img-blog.csdnimg.cn/20210414174007800.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ 

@@ -264,3 +264,10 @@ ClassLoader.getSystemClassLoader()来获取它。
 回收速度比较快;Full Gc/Major GC 发生在老年代，一般情况下，触发老年代 GC
 的时候不会触发 Minor GC,但是通过配置，可以在 Full GC 之前进行一次 Minor
 GC 这样可以加快老年代的回收速度。
+
+# 其他
+喜欢的同学点个星星，打赏奖励一下博主！！！
+
+ <img src="https://img-blog.csdnimg.cn/20210414173956371.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ <img src="https://img-blog.csdnimg.cn/20210414174007800.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ 

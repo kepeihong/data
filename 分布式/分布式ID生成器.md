@@ -37,3 +37,10 @@ A 库的递增方式可以是 `0 ,2 ,4 ,6`。B 库则是 `1 ,3 ,5 ,7`。这样�
 ## Twitter 雪花算法
 
 可以基于 `Twitter` 的 `Snowflake` 算法来实现。它主要是一种划分命名空间的算法，将生成的 ID 按照机器、时间等来进行标志。
+
+# 其他
+喜欢的同学点个星星，打赏奖励一下博主！！！
+
+ <img src="https://img-blog.csdnimg.cn/20210414173956371.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ <img src="https://img-blog.csdnimg.cn/20210414174007800.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ 

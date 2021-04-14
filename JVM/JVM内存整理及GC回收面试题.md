@@ -125,3 +125,10 @@ Full GC： 对整个堆进行整理，包括 Young、Tenured 和 Perm。Full GC 
 JVM 调优的过程中，很大一部分工作就是对于 FullGC 的调节。有如下原因可能导致 Full
 GC：年老代（Tenured）被写满、持久代（Perm）被写满、System.gc()被显示调用 、
 上一次 GC 之后 Heap 的各域分配策略动态变化。
+
+# 其他
+喜欢的同学点个星星，打赏奖励一下博主！！！
+
+ <img src="https://img-blog.csdnimg.cn/20210414173956371.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ <img src="https://img-blog.csdnimg.cn/20210414174007800.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ 

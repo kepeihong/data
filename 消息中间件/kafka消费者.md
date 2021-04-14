@@ -188,4 +188,9 @@ c1 线程只取 0 分区；c2 只取 1 分区；c3 只取 2 分区的数据。
 
 所以推荐使用这样的方式消费数据，同时扩展性也非常好。当性能不足新增分区时只需要启动新的消费实例加入到消费组中即可。
 
+# 其他
+喜欢的同学点个星星，打赏奖励一下博主！！！
 
+ <img src="https://img-blog.csdnimg.cn/20210414173956371.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ <img src="https://img-blog.csdnimg.cn/20210414174007800.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ 

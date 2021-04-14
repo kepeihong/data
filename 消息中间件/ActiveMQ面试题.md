@@ -117,3 +117,10 @@ ActiveMQ 服务器的消息通讯，负责失效转移（fail-over）等，所�
 | useCollisionAvoidance | false | 启用防止冲突功能，因为消息接收时是可以使用多线程并发处 理的，应该是为了重发的安全性，避开所有并发线程都在同一个时间点进行消息接收处理。所有线程在同 一个时间点处理时会发生什么问题呢？应该没有问题，只是为了平衡 broker 处理性能，不会有时很忙，  有时很空闲。 |
 | useExponentialBackOff | false | 启用指数倍数递增的方式增加延迟时间。 |
 | backOffMultiplier | 5 | 重连时间间隔递增倍数，只有值大于 1 和启用 useExponentialBackOff 参数时才生效 |
+
+# 其他
+喜欢的同学点个星星，打赏奖励一下博主！！！
+
+ <img src="https://img-blog.csdnimg.cn/20210414173956371.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ <img src="https://img-blog.csdnimg.cn/20210414174007800.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ 

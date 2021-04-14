@@ -173,3 +173,10 @@ server 的时机控制，以及切回后，针对 message 先后顺序产生的�
 同样会导致 cold-standby server 异常；另外，在该模型下，要求 active 和 cold-standby
 的 server 必须具有相同的 node 名和 UID ，否则将产生访问权限问题；最后，由于该模
 型是冷备方案，故无法保证 cold-standby server 能在你要求的时限内成功启动。
+
+# 其他
+喜欢的同学点个星星，打赏奖励一下博主！！！
+
+ <img src="https://img-blog.csdnimg.cn/20210414173956371.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ <img src="https://img-blog.csdnimg.cn/20210414174007800.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ 

@@ -142,3 +142,10 @@ SpringMvc 是 spring 的一个模块，基于 MVC 的一个框架，无需中间
 disPatherServlet，spring 容器通过映射器去寻找业务控制器，使用适配器找到相应的业务
 类，在进业务类时进行数据封装，在封装前可能会涉及到类型转换，执行完业务类后使用
 ModelAndView 进行视图转发，数据放在 model 中，用 map 传递数据进行页面显示。
+
+# 其他
+喜欢的同学点个星星，打赏奖励一下博主！！！
+
+ <img src="https://img-blog.csdnimg.cn/20210414173956371.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ <img src="https://img-blog.csdnimg.cn/20210414174007800.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tlMzY5MDkzNDU3,size_16,color_FFFFFF,t_70" width = "200" height = "250" alt="图片名称" align=center />
+ 
