@@ -189,24 +189,20 @@
 - [OOM问题排查](https://github.com/kepeihong/data/tree/master/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/OOM%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5.md)
 - [Thread停止运行](https://github.com/kepeihong/data/tree/master/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/thread%E5%81%9C%E6%AD%A2%E8%BF%90%E8%A1%8C.md)
 
-## [数据结构与算法](#数据结构与算法)
-- [红包算法](https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/red/RedPacket.java)
-- [二叉树层序遍历](https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/algorithm/BinaryNode.java#L76-L101)
-- [是否为快乐数字](https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/algorithm/HappyNum.java#L38-L55)
-- [链表是否有环](https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/algorithm/LinkLoop.java#L32-L59)
-- [从一个数组中返回两个值相加等于目标值的下标](https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/algorithm/TwoSum.java#L38-L59)
-- [一致性 Hash 算法原理](https://github.com/kepeihong/data/tree/master/%E5%B9%B6%E5%8F%91//Consistent-Hash.md)
-- [一致性 Hash 算法实践](https://github.com/crossoverJie/JCSprout/blob/master/docs/algorithm/consistent-hash-implement.md)
-- [限流算法](https://github.com/kepeihong/data/tree/master/%E5%B9%B6%E5%8F%91//Limiting.md)
-- [三种方式反向打印单向链表](https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/algorithm/ReverseNode.java)
-- [合并两个排好序的链表](https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/algorithm/MergeTwoSortedLists.java)
-- [两个栈实现队列](https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/algorithm/TwoStackQueue.java)
-- [动手实现一个 LRU cache](http://crossoverjie.top/2018/04/07/algorithm/LRU-cache/)
-- [链表排序](./src/main/java/com/crossoverjie/algorithm/LinkedListMergeSort.java)
-- [数组右移 k 次](./src/main/java/com/crossoverjie/algorithm/ArrayKShift.java)
-- [交替打印奇偶数](https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/actual/TwoThread.java)
-- [亿级数据中判断数据是否不存在](https://github.com/crossoverJie/JCSprout/blob/master/docs/algorithm/guava-bloom-filter.md) 
-
+## [数据结构与算法](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
+- [100道大厂常见算法题及答案](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
+- [Leetcode常见算法题及答案](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
+- [算法分析](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%20-%20%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.md)
+- [排序](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%2520-%2520%E6%8E%92%E5%BA%8F.md)
+- [并查集](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%2520-%2520%E5%B9%B6%E6%9F%A5%E9%9B%86.md)
+- [栈和队列](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%2520-%2520%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97.md)
+- [符号表](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%20-%20%E7%AC%A6%E5%8F%B7%E8%A1%A8.md)
+- [其它](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%2520-%2520%E5%85%B6%E5%AE%83.md)
+       
+## [插件](https://github.com/kepeihong/data/tree/master/%E6%8F%92%E4%BB%B6)
+- [Git](https://github.com/kepeihong/data/tree/master/%E6%8F%92%E4%BB%B6/Git.md)
+- [git使用原理](https://github.com/kepeihong/data/tree/master/%E6%8F%92%E4%BB%B6/git%E4%BD%BF%E7%94%A8%E5%8E%9F%E7%90%86.md)
+- [构建工具](https://github.com/kepeihong/data/tree/master/%E6%8F%92%E4%BB%B6/%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7.md)
 
 ## 其他
 
