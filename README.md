@@ -86,16 +86,16 @@
 - [MySQL性能优化的21个最佳实践](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mysql/MySQL%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%9A%8421%E4%B8%AA%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.PDF)
 
 ### [2.redis](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis)
-- [Redis基础](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis/Redis%E5%9F%BA%E7%A1%80.dm)
-- [redis限流](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis/redis%E9%99%90%E6%B5%81.dm)
-- [redis分布式锁](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis/redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81.dm)
-- [redis面试题](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis/redis%E9%9D%A2%E8%AF%95%E9%A2%98.dm)
+- [Redis基础](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis/Redis%E5%9F%BA%E7%A1%80.md)
+- [redis限流](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis/redis%E9%99%90%E6%B5%81.md)
+- [redis分布式锁](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis/redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81.md)
+- [redis面试题](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis/redis%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
 ### [3.mongoDB](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mongoDB)
-- [mongodb面试题](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mongoDB/mongodb%E9%9D%A2%E8%AF%95%E9%A2%98.dm)
+- [mongodb面试题](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mongoDB/mongodb%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
 ### [4.mybatis](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mybatis)
-- [mybatis面试题](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mybatis/mybatis%E9%9D%A2%E8%AF%95%E9%A2%98.dm)
+- [mybatis面试题](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mybatis/mybatis%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
 ### [5.ElasticSearch](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/elasticsearch)
 
@@ -136,7 +136,7 @@
 
 ## [计算机基础](https://github.com/kepeihong/data/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80)
 - [Linux](https://github.com/kepeihong/data/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/Linux.md)
-- [linux面试题](https://github.com/kepeihong/data/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/linux%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+- [linux面试题](https://github.com/kepeihong/data/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/linux%E5%8E%9F%E7%90%86%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
 - [计算机操作系统-概述](https://github.com/kepeihong/data/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E6%A6%82%E8%BF%B0.md)
 - [计算机操作系统-内存管理](https://github.com/kepeihong/data/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20-%20%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.md)
