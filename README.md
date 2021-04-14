@@ -7,7 +7,7 @@
 
 ## [分布式](https://github.com/kepeihong/data/tree/master/%E5%88%86%E5%B8%83%E5%BC%8F)
 - [深入了解分布式](https://github.com/kepeihong/data/tree/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3%E5%88%86%E5%B8%83%E5%BC%8F.md)
-- [分布式相关面试题](https://github.com/kepeihong/data/tree/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E5%88%86%E5%B8%83%E5%BC%8F%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+- [分布式面试题](https://github.com/kepeihong/data/tree/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E5%88%86%E5%B8%83%E5%BC%8F%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 - [zk面试题](https://github.com/kepeihong/data/tree/master/%E5%88%86%E5%B8%83%E5%BC%8F/zk%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 - [dubbo面试题](https://github.com/kepeihong/data/tree/master/%E5%88%86%E5%B8%83%E5%BC%8F/dubbo%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 - [限流机制](https://github.com/kepeihong/data/tree/master/%E5%88%86%E5%B8%83%E5%BC%8F/%E9%99%90%E6%B5%81%E6%9C%BA%E5%88%B6.md)
@@ -83,7 +83,7 @@
 - [sql优化专题](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mysql/sql%E4%BC%98%E5%8C%96%E4%B8%93%E9%A2%98.md)
 - [分库分表](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mysql/%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8.md)
 - [数据库系统原理](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.md)
-- [MySQL性能优化的21个最佳实践](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mysql/MySQL%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%9A%8421%E4%B8%AA%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.PDF)
+- [MySQL性能优化的21个最佳实践](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/mysql/MySQL%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%9A%8421%E4%B8%AA%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.pdf)
 
 ### [2.redis](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis)
 - [Redis基础](https://github.com/kepeihong/data/tree/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/redis/Redis%E5%9F%BA%E7%A1%80.md)
@@ -103,7 +103,7 @@
 
 ## [并发](https://github.com/kepeihong/data/tree/master/%E5%B9%B6%E5%8F%91)
 - [多线程常见问题](https://github.com/kepeihong/data/tree/master/%E5%B9%B6%E5%8F%91/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md)
-- [多线程三大核心](https://github.com/kepeihong/data/tree/master/%E5%B9%B6%E5%8F%91/T%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%89%E5%A4%A7%E6%A0%B8%E5%BF%83.md)
+- [多线程三大核心](https://github.com/kepeihong/data/tree/master/%E5%B9%B6%E5%8F%91/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%89%E5%A4%A7%E6%A0%B8%E5%BF%83.md)
 - [对锁的一些认知](https://github.com/kepeihong/data/tree/master/%E5%B9%B6%E5%8F%91/Java%E9%94%81.md)
 - [ReentrantLock 实现原理 ](https://github.com/kepeihong/data/tree/master/%E5%B9%B6%E5%8F%91/ReentrantLock%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.md)
 - [ConcurrentHashMap 的实现原理](https://github.com/kepeihong/data/tree/master/%E5%B9%B6%E5%8F%91/ConcurrentHashMap.md)
@@ -206,9 +206,9 @@
 - [构建工具](https://github.com/kepeihong/data/tree/master/%E6%8F%92%E4%BB%B6/%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7.md)
 
 ## 其他
-收集不易，喜欢的同学点个星星，打赏奖励一下博主！！！
-![](https://github.com/kepeihong/data/tree/master/image/pics/1618389462.jpg)
-![](https://github.com/kepeihong/data/tree/master/image/pics/1618389579.jpg)
+喜欢的同学点个星星，打赏奖励一下博主！！！
+![avatar](https://github.com/kepeihong/data/tree/master/image/pics/1618389462.jpg)
+![avatar](https://github.com/kepeihong/data/tree/master/image/pics/1618389579.jpg)
 
 
 
