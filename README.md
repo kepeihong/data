@@ -206,8 +206,9 @@
 - [构建工具](https://github.com/kepeihong/data/tree/master/%E6%8F%92%E4%BB%B6/%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7.md)
 
 ## 其他
-
-
+收集不易，喜欢的同学点个星星，打赏奖励一下博主！！！
+![](https://github.com/kepeihong/data/tree/master/image/pics/1618389462.jpg)
+![](https://github.com/kepeihong/data/tree/master/image/pics/1618389579.jpg)
 
 
 
