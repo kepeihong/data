@@ -17,8 +17,8 @@
 
 
 ## [Spring框架](https://github.com/kepeihong/data/tree/master/spring)
-- [Spring-Bean生命周期](https://github.com/crossoverJie/JCSprout/blob/master/spring/spring-bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md)
-- [SpringAOP实现原理](https://github.com/crossoverJie/JCSprout/blob/master/spring/SpringAOP.md) 
+- [Spring-Bean生命周期](https://github.com/kepeihong/data/tree/master/spring/spring-bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md)
+- [SpringAOP实现原理](https://github.com/kepeihong/data/tree/master/spring/SpringAOP.md) 
 - [Spring面试题](https://github.com/kepeihong/data/tree/master/spring/spring%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 - [springBoot面试题](https://github.com/kepeihong/data/tree/master/spring/springBoot%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 - [springMVC面试题](https://github.com/kepeihong/data/tree/master/spring/springMVC%E9%9D%A2%E8%AF%95%E9%A2%98.md)
