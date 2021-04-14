@@ -176,10 +176,18 @@
 - [五大IO模型](https://github.com/kepeihong/data/tree/master/%E7%BD%91%E7%BB%9C/%E4%BA%94%E5%A4%A7IO%E6%A8%A1%E5%9E%8B.md)
 
 
-## [规范](https://github.com/kepeihong/data/tree/master/Netty)
+## [规范](https://github.com/kepeihong/data/tree/master/%E8%A7%84%E8%8C%83)
+- [代码可读性](https://github.com/kepeihong/data/tree/master/%E8%A7%84%E8%8C%83/%E4%BB%A3%E7%A0%81%E5%8F%AF%E8%AF%BB%E6%80%A7.md)
+- [代码风格规范](https://github.com/kepeihong/data/tree/master/%E8%A7%84%E8%8C%83/%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC%E8%A7%84%E8%8C%83.md)
 
-## [线上问题排查](#线上问题排查)
 
+
+## [线上问题排查](https://github.com/kepeihong/data/tree/master/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5)
+- [cpu100%](https://github.com/kepeihong/data/tree/master/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/cpu100%25.md)
+- [HashSet并发问题排查](https://github.com/kepeihong/data/tree/master/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/HashSet%E5%B9%B6%E5%8F%91%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5.md)
+- [OOM 分析](https://github.com/kepeihong/data/tree/master/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/OOM%20%E5%88%86%E6%9E%90.md)
+- [OOM问题排查](https://github.com/kepeihong/data/tree/master/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/OOM%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5.md)
+- [Thread停止运行](https://github.com/kepeihong/data/tree/master/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/thread%E5%81%9C%E6%AD%A2%E8%BF%90%E8%A1%8C.md)
 
 ## [数据结构与算法](#数据结构与算法)
 - [红包算法](https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/red/RedPacket.java)
