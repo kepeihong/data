@@ -1,7 +1,9 @@
-调优
-1、监控工具
+# 调优
+## 1、监控工具
 jps命令
+
 作用：查看所有的java进程
+
 用法： jps
 
 jstat命令
@@ -10,6 +12,7 @@ jstat命令
 程序中有大对象，GC没办法回收，所以E和O特别高，会影响到代码的其他接口
 
 作用：可查看堆的使用情况及垃圾回收情况
+
 用法： jstat –gcutil pid
 ```
 jstat -gcutil 397116--总结垃圾回收统计
@@ -44,14 +47,20 @@ FGC：老年代垃圾回收次数
 FGCT：老年代垃圾回收消耗时间
 GCT：垃圾回收消耗总时间
 ```
-jmap命令
+* jmap命令
+
 作用：可打印当前内存存储快照
+
 用法： jmap -dump:format=b,file=#输出dump地址 pid
 
-jstack命令
+* jstack命令
+
 作用：栈信息查看和输出
+
 用法： jstack pid >#输出文件名称
-jconsole工具
+
+*  jconsole工具
+
 JDK自带工具，可查看本地及远程的所有jvm信息，含类、各种内存、线程等信息
 
 ![](https://img-blog.csdnimg.cn/img_convert/57573d81416eeb512c5d7ba342c9b815.png
@@ -60,20 +69,21 @@ JDK自带工具，可查看本地及远程的所有jvm信息，含类、各种�
 ![](https://img-blog.csdnimg.cn/img_convert/d648f44d45cd184e30f1b85877de4772.png
 )
 
-jvisualvm工具
+*  jvisualvm工具
 JDK自带工具，查看本地及远程的所有jvm信息，还能导入分析堆栈日志信息，比jconsole更加直观
 ![]( https://img-blog.csdnimg.cn/img_convert/a4aa94a425a07d1cda6d9a18dfc9c8ed.png
 )
 
 
 
-2、调优案例
+## 2、调优案例
 1、JVM常见死锁问题产生原因和多种诊断方式
+
 产生原因:互相等待对方的锁释
 
-问题定位
+* 问题定位
 
-方法一、导出栈信息后定位
+* 方法一、导出栈信息后定位
 
 a、使用jps查看所有的java pid
 b、jstack pid >aaa.log--------------将pid的栈信息输出到当前目录的aaa.log
@@ -83,7 +93,7 @@ b、jstack pid >aaa.log--------------将pid的栈信息输出到当前目录的a
 
 
 
-方法二、使用JDK自带的jvisualvm工具直接检测
+*  方法二、使用JDK自带的jvisualvm工具直接检测
 
 ![](https://img-blog.csdnimg.cn/img_convert/91cd7e334780d44592213f99fe5a2e33.png)
 ![](https://img-blog.csdnimg.cn/img_convert/5d7161d8c5ac1b51376fd035f3eed1c6.png
@@ -91,28 +101,34 @@ b、jstack pid >aaa.log--------------将pid的栈信息输出到当前目录的a
 
 
 
-方法三、使用JDK自带的jconsole工具直接检测
+*  方法三、使用JDK自带的jconsole工具直接检测
 ![](https://img-blog.csdnimg.cn/img_convert/d33e9ea2c05df25792acc00bee198c33.png)
 
 
-2、服务器CPU飙升为100%问题排查
-1.定位哪个程序占用的CPU较高
+## 2、服务器CPU飙升为100%问题排查
+* 1.定位哪个程序占用的CPU较高
 
 linux命令：top
+
 windows：任务管理器
+
 ![](https://img-blog.csdnimg.cn/img_convert/b9079f5e40186e79553c8632d5bb7f1c.png)
 
 
-2.栈信息输出
+* 2.栈信息输出
 
 命令格式：jstack pid > 文件信息
+
 eg：jstack 5115 > a.txt
 
-3.定位哪一个线程占用率高
+* 3.定位哪一个线程占用率高
 
 常用命令：按shift+p可排序
+
 ps -mp pid -o THREAD,tid,time
+
 ps -Lfp pid
+
 top -H ----直接查看高CPU的线程
 
  
@@ -182,7 +198,9 @@ G1/ZGC同时注重吞吐量和响应时间优先
 ```
 ## 2、JVM调优方案
 优化核心思路：
+
 * 1、通过堆内存设置减少老年代垃圾回收的次数
+
 * 2、配置垃圾回收器，减少STW的时间
 
 ### 1.避免用户线程暂停时间STW比较短
