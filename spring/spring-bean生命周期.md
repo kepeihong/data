@@ -11,7 +11,7 @@ Spring Bean 的生命周期在整个 Spring 中占有很重要的位置，掌握
 
 再谈生命周期之前有一点需要先明确：
 
-> Spring 只帮我们管理单例模式 Bean 的**完整**生命周期，对于 prototype 的 bean ，Spring 在创建好交给使用者之后则不会再管理后续的生命周期。
+> Spring 只帮我们管理单例模式 Bean 的完整生命周期，对于 prototype 的 bean ，Spring 在创建好交给使用者之后则不会再管理后续的生命周期。
 
 
 ### 注解方式
